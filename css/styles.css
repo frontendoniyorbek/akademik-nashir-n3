@@ -1,0 +1,161 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+*:focus {
+	outline: 2px dotted #ff7500;
+	outline-offset: 3px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+	border: none;
+	padding: 12px 24px;
+	background-color: #ff7500;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	opacity: 0.6;
+}
+
+/* site-header */
+.site-header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.site-header {
+	border-top: 5px solid #ff7500;
+}
+
+.site-header-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo-link {
+	margin-right: auto;
+	transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+	opacity: 0.8;
+}
+
+.logo-link:active {
+	opacity: 0.6;
+}
+
+.site-nav {
+	margin-right: 32px;
+}
+
+.site-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.site-list-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.site-list-item a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	color: #000;
+	transition: all 0.4s ease;
+}
+
+.site-list-item a:hover {
+	color: #ff7500;
+}
+
+.site-list-item a:active {
+	opacity: 0.6;
+}
+
+.site-list-link-active {
+	border-bottom: 3px solid #ff7500;
+}
+
+.hero {
+	background-color: #252420;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 147px;
+}
+
+.hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+
+.hero-line {
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 40px;
+}
+
+.hero-title {
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 0.5px;
+	line-height: 1.2;
+}
+
+.hero-text {
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.hero-img-wrapper img {
+	width: 510px;
+	height: 510px;
+	object-fit: cover;
+	border-radius: 8px;
+}
